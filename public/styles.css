@@ -1,0 +1,124 @@
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+img {
+  position: relative;
+  margin: 10px auto 20px auto;
+  display: block;
+  padding: 5px;
+}
+
+footer {
+
+}
+
+footer p {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+Header {
+  position: relative;
+  background: #97DBAE;
+  margin: -10px -24px;
+  padding: 10px  32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+Header h1 {
+  text-align: center;
+  color: #1D5C63;
+
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #97DBAE;
+  top: 1;
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #97DBAE;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 0 5px #97DBAE;
+  cursor: pointer;
+  outline: none;
+}
+
+.progress-bar {
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  display: block;
+  width: 480px;
+  margin: auto;
+  box-shadow: 0 0 5px #97DBAE;
+  padding: 5px;
+  height: 1.5rem;
+  overflow: hidden;
+}
+
+.progress {
+  position: absolute;
+  border-radius: 5px;
+  background: #97DBAE;
+  padding: 5px;
+  display: flex;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -2%
+}
+
+.progress p {
+  padding-left: .7rem; 
+  margin: auto;
+
+}
+
+
+
+.note {
+  background: #fff;
+  padding: 5px;
+  border-radius: 7px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note-button {
+  color: #97DBAE;
+  border: none;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
